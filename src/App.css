@@ -1,0 +1,145 @@
+body {
+  background: black url(../src/assets/background.png) no-repeat center;
+  height: 100vh;
+  color: white;
+}
+
+.container {
+  width: 100vw;
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+
+.topoparte1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.topo {
+  margin-top: 25px;
+}
+
+.menu {
+  margin-top: 30px;
+}
+
+.menu ul li {
+  display: inline;
+  margin-right: 15px;
+}
+
+.menu ul {
+  margin-right: 40px;
+}
+
+.menu ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.botao-topo {
+  margin-top: 25px;
+}
+
+.botao-meta {
+  background: white;
+  color: black;
+  border: none;
+  width: 140px;
+  height: 27px;
+  font-weight: bold;
+}
+
+.topoparte2 {
+  color: white;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1000px;
+  margin: 100px auto;
+}
+
+.texto-nft {
+  width: 280px;
+}
+
+.texto-nft img {
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.titulo-nft {
+  width: 500px;
+  font-size: 23px;
+}
+
+.imagem-logo {
+  margin-top: 20px;
+}
+
+.orange {
+  color: #ff5b50;
+}
+
+.galeria1 {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.fila1 {
+  margin-bottom: 15px;
+}
+
+.margem {
+  margin: 0 15px;
+}
+
+.borda {
+  border: 1px solid white;
+}
+
+.mid {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 200px;
+}
+
+.lateral-esq {
+  border-right: 1px solid grey;
+  border-bottom: 1px solid grey;
+  text-align: right;
+  padding-right: 50px;
+  width: 30%;
+}
+
+.textos {
+  width: 70%;
+}
+
+.mid-texto1 {
+  width: 30%;
+  float: left;
+  margin-bottom: 30px;
+  margin-left: 50px;
+  color: rgb(190, 186, 186);
+}
+
+.mid-texto1 a {
+  color: #ff5b50;
+}
+
+.mid-texto2 {
+  width: 30%;
+  float: left;
+  margin-left: 70px;
+  color: rgb(190, 186, 186);
+}
+
+.mid-texto2 a {
+  color: #ff5b50;
+}
