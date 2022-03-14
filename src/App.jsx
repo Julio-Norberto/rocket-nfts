@@ -1,6 +1,8 @@
 import './App.css';
+
 import Logo from './assets/logo.svg'
 import Badge from './assets/badge.svg'
+
 import Group from './assets/group-avarts.png'
 import Galeria1 from './assets/galeria-1.png'
 import Galeria2 from './assets/galeria-2.png'
@@ -10,13 +12,30 @@ import Galeria5 from './assets/galeria-5.png'
 import Galeria6 from './assets/galeria-6.png'
 import Galeria7 from './assets/galeria-7.png'
 import Galeria8 from './assets/galeria-8.png'
+
 import Banner from './assets/banner.png'
+
+import Ast1 from './assets/astronauta 1.png'
+import Ast2 from './assets/astronauta-2.png'
+import Ast3 from './assets/astronauta-3.png'
+import Ast4 from './assets/astronauta-4.png'
+
+import Arrow from './assets/arrow-white.svg'
+import ArrowOrange from './assets/arrow-orange.svg'
+
+import Art1 from './assets/artista-1.png'
+import Art2 from './assets/artista-2.png'
+import Art3 from './assets/artista-3.png'
+import Art4 from './assets/artista-4.png'
+import Art5 from './assets/artista-5.png'
+import Art6 from './assets/artista-6.png'
+
 
 function App() {
   return (
     <div className="container">
 
-      {/* INICIO DA PARTE1 */}
+        {/* INICIO DA PARTE1 */}
         <div className='topoparte1'>
 
             {/* INICIO DO CABEÇALHO */}
@@ -129,6 +148,140 @@ function App() {
         </div>
         {/* FIM DA MID */}
 
+        {/* INICIO DOS POPULARES */}
+        <div className='populares'>
+
+            <div className='conjunto1'>
+              <h1 className='titulo-populares'> <span className='orange'>Populares</span> da semana</h1>
+
+                <div className='astronauta-1'>
+                  <h1 className='titulo'>Astronauta 1 <img className='seta' src={Arrow} alt="" /></h1> <br />
+                  <span className='autor'>Mayk Brito</span> 
+                  <span className='valor'>1.50 RKT</span> <br />
+                  <img src={Ast1} alt="" />
+                </div>
+
+                <div className='astronauta-3'>
+                  <h1 className='titulo'>Astronauta 3 <img className='seta' src={Arrow} alt="" /></h1> <br />
+                  <span className='autor'>João Inácio (Biro)</span> 
+                  <span className='valor'>3.75 RKT</span> <br />
+                  <img src={Ast3} alt="" />
+                </div>
+
+            </div>
+
+            <div className='conjunto2'>
+
+            <div className='astronauta-2'>
+                  <h1 className='titulo'>Astronauta 2 <img className='seta' src={Arrow} alt="" /></h1> <br />
+                  <span className='autor'>Jakeliny Gracielly</span> 
+                  <span className='valor'>2.0 RKT</span> <br />
+                  <img src={Ast2} alt="" />
+                </div>
+
+                <div className='astronauta-4'>
+                  <h1 className='titulo'>Astronauta 3 <img className='seta' src={Arrow} alt="" /></h1> <br />
+                  <span className='autor'>Tamires Santos</span> 
+                  <span className='valor'>4.30 RKT</span> <br />
+                  <img src={Ast4} alt="" />
+                </div>
+
+            </div>
+
+        </div>
+        {/* FIM DOS POPULARES */}
+
+        <div className='titulo-artistas'>
+              <h1> <span className='orange'> Melhores </span> Artistas</h1>
+        </div>
+
+
+        {/* INICIO MELHORES ARTISTAS */}
+        <div className='Melhores-artistas'>
+
+            {/* INICIO FILEIRA 1 */}
+            <div className='fileira-art-1'>
+
+                <div className='artista'>
+
+                  <div><img src={Art1} alt="" width="70" /></div>
+
+                  <div> 
+                    <h2>Mayk Brito</h2> <br />
+                    <p className='orange'>80 fotografias</p>
+                  </div>
+
+                </div>
+
+                <div className='artista-red'>
+
+                  <div><img src={Art2} alt="" width="70" /></div>
+
+                  <div> 
+                    <h2>Jakeliny</h2> <br />
+                    <p>99 fotografias</p>
+                  </div>
+                  
+                </div>
+
+                <div className='artista'>
+
+                  <div><img src={Art3} alt="" width="70" /></div>
+
+                  <div> 
+                    <h2>João L (Biro)</h2> <br />
+                    <p className='orange'>50 fotografias</p>
+                  </div>
+
+                </div>
+
+            </div>
+            {/* FIM FILEIRA 1 */}
+
+            {/* INICIO FILEIRA 2 */}
+            <div className='fileira-art-2'>
+
+                <div className='artista'>
+
+                  <div><img src={Art4} alt="" width="70" /></div>
+
+                  <div> 
+                    <h2>Tamires Santos</h2> <br />
+                    <p className='orange'>43 fotografias</p>
+                  </div>
+
+                </div>
+
+                <div className='artista'>
+
+                  <div><img src={Art5} alt="" width="70" /></div>
+
+                  <div> 
+                    <h2>Ana Silva</h2> <br />
+                    <p className='orange'>28 fotografias</p>
+                  </div>
+
+                </div>
+
+                <div className='artista'>
+
+                  <div><img src={Art6} alt="" width="70" /></div>
+
+                  <div> 
+                    <h2>Diego F.</h2> <br />
+                    <p className='orange'>20 fotografias</p>
+                  </div>
+
+                </div>
+
+            </div>
+            {/* FIM FILEIRA 2 */}
+
+        </div>
+        {/* FIM MELHORES ARTISTAS */}
+        <p className='veja-todos'>
+         <a href="">Veja todos os artistas <img src={ArrowOrange} alt="" width="12" /> </a>
+        </p>
     </div>
   );
 }
