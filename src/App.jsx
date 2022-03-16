@@ -22,6 +22,7 @@ import Ast4 from './assets/astronauta-4.png'
 
 import Arrow from './assets/arrow-white.svg'
 import ArrowOrange from './assets/arrow-orange.svg'
+import ArrowBlack from './assets/arrow-black.svg'
 
 import Art1 from './assets/artista-1.png'
 import Art2 from './assets/artista-2.png'
@@ -30,6 +31,10 @@ import Art4 from './assets/artista-4.png'
 import Art5 from './assets/artista-5.png'
 import Art6 from './assets/artista-6.png'
 
+import Instagram from './assets/instagram.svg'
+import Twitter from './assets/twitter.svg'
+import Email from './assets/email.svg'
+import Youtube from './assets/youtube.svg'
 
 function App() {
   return (
@@ -282,6 +287,74 @@ function App() {
         <p className='veja-todos'>
          <a href="">Veja todos os artistas <img src={ArrowOrange} alt="" width="12" /> </a>
         </p>
+
+        <div className='rodape'>
+            <div className='rodape-top'>
+                <h1> Rocket <span className='orange'>NFTs</span></h1>
+                <button> <img src={ArrowBlack} alt="" /> </button>
+            </div>
+
+            <div className='rodape-mid'>
+                <div className='newsletter'>
+                    <h1>Fique por dentro de <br /> <span className='orange'>todas as novidades</span></h1>
+                    <input type="text" placeholder='nft@rocketseat.com.br' />
+                    <button type='submit' >Enviar</button>
+                </div>
+
+                <div className='menu-bottom'>
+
+                    <div className='coluna1'>
+                        <ul>
+                          <li> <a className='white' href=""> <span className='white'> Empresa</span> </a> </li>
+                          <li> <a href="">Sobre</a> </li>
+                          <li> <a href="">Serviços</a> </li>
+                          <li> <a href="">Time</a> </li>
+                          <li> <a href="">Carreira</a> </li>
+                        </ul>
+                    </div>
+
+                    <div className='coluna2'>
+                        <ul>
+                          <li> <a href=""> <span className='white'>Mapa</span> </a> </li>
+                          <li> <a href="">Galeria</a> </li>
+                          <li> <a href="">Populares</a> </li>
+                          <li> <a href="">Vendas</a> </li>
+                          <li> <a href="">Contato</a> </li>
+                        </ul>
+                    </div>
+
+                    <div className='coluna3'>
+                        <ul>
+                          <li> <a href=""> <span className='white'>Links</span> </a> </li>
+                          <li> <a href="">FAQs</a> </li>
+                          <li> <a href="">Termos</a> </li>
+                          <li> <a href="">Política</a> </li>
+                          <li> <a href="">Ajuda</a> </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+            <div className='rodape-bottom'>
+                <div>
+                  <p>www.rocketseat.com.br</p>
+                </div>
+
+                <div className='social'>
+                  <button className='social'> <img src={Instagram} alt="" /> </button>
+                  <button className='social'> <img src={Youtube} alt="" /> </button>
+                  <button className='social'> <img src={Twitter} alt="" /> </button> 
+                  <button className='social'> <img src={Email} alt="" /> </button>
+                </div>
+            </div>
+
+        </div>
+
+
     </div>
   );
 }
