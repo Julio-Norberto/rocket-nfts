@@ -1,5 +1,6 @@
 body {
   background: black url(../src/assets/background.png) no-repeat center;
+  background-size: cover;
   height: 100vh;
   color: white;
 }
@@ -106,7 +107,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin-top: 200px;
+  margin-top: 100px;
 }
 
 .lateral-esq {
@@ -174,12 +175,12 @@ body {
 }
 
 .astronauta-2 {
-  margin-top: 220px;
+  margin-top: 138px;
   margin-bottom: 40px;
 }
 
 .titulo-populares {
-  margin-bottom: 180px;
+  margin-bottom: 100px;
 }
 
 .titulo-artistas {
@@ -332,4 +333,10 @@ body {
   background-color: rgb(31, 30, 30);
   border: none;
   margin: 0 15px;
+}
+
+@media (min-width: 1370px) {
+  .mid {
+    margin-top: 400px;
+  }
 }
